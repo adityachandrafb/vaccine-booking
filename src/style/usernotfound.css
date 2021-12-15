@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.content {
+    margin: 20pt;
+    padding-right: 10pt;
+    min-height: 100%;
+}
+.h2 {
+    color: #006D7C;
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration:none;
+    margin-top: 20pt;
+    margin-bottom:20pt;
+}
+.masuk-button {
+    margin-right: 5 px;
+    background-color: #006D7C;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.daftar-button {
+    background-color: #006D7C;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+  

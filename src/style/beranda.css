@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-beranda {
+  background-image: url(./beranda-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 110%;
+  background-position-y: 145%;
+  padding: 20pt;
+  padding-bottom: 100pt;
+}
+.beranda-bg {
+  background-image: url(./beranda-bg.png);
+  background-size: 400px 400px;
+  background-position: right-bottom;
+  position: fixed;
+  /* Center vertically and horizontally */
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin: 20pt;
+  padding-right: 10pt;
+  min-height: 100%;
+}
+
+.beranda-h1 {
+  color: #006D7C;
+  font-size: 35pt;
+  font-weight: 700;
+  text-decoration:none;
+  margin-top: 20pt;
+  margin-bottom:20pt;
+}
+.beranda-h3 {
+  color: #006d7c;
+  font-size: 18pt;
+  font-weight: 500;
+}
+.header {
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "navbar profile";
+  grid-gap: 10pt;
+  padding: 20pt;
+}
+.submit-button {
+  margin: 20 pt;
+  background-color: #006D7C;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
